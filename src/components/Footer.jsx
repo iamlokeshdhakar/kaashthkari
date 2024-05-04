@@ -5,6 +5,17 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
+    <>
+    <div className="ani">
+      <Image src={'/ani1.gif'} width={120} height={80}/>
+      <Image src={'/ani2.gif'} width={120} height={80}/>
+      <Image src={'/ani3.gif'} width={120} height={80}/>
+      <Image src={'/ani4.gif'} width={120} height={80}/>
+      <Image src={'/ani1.gif'} width={120} height={80}/>
+      <Image src={'/ani2.gif'} width={120} height={80}/>
+      <Image src={'/ani3.gif'} width={120} height={80}/>
+      <Image src={'/ani4.gif'} width={120} height={80}/>
+    </div>
     <div className="footer">
       <div className="f-img">
         
@@ -102,6 +113,8 @@ const Footer = () => {
         </div>
       </div>
     </div>
+    </>
+
   );
 };
 

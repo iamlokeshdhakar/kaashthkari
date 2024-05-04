@@ -9,8 +9,11 @@
 }
 .d-img {
   position: relative;
-  width: 200px;
-  height: 350px;
+  width: 250px;
+  height: 400px;
+  background-image: url('/donate.gif');
+  background-size: cover;
+  background-position: center;
 }
 .d-cnt {
   font-size: 17px;
@@ -29,6 +32,6 @@
 }
 @media (max-width: 768px) {
  .donate{
-    gap: 40px;
+    gap: 10px;
  }
 }

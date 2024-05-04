@@ -4,7 +4,7 @@ const Donate = () => {
   return (
     <div className="donate">
       <div className="d-img">
-        <Image src={"/donate.png"} fill={"cover"} style={{ width: "100%" }} />
+        {/* <Image src={"/donate.gif"} fill={"cover"} style={{ width: "100%" }} /> */}
       </div>
       <div className="d-cnt">
         <h2>DONATE</h2>
