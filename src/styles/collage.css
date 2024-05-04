@@ -1,0 +1,16 @@
+.collage{
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    position: relative;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+.c-cnt{
+    width: 100%;
+    padding: 40px 90px;
+    text-align: center;
+    font-size: 15px;
+}

@@ -1,6 +1,6 @@
-import React from "react";
-import "../styles/navbar.css";
-import Link from "next/link";
+import React from "react"
+import "../styles/navbar.css"
+import Link from "next/link"
 
 const Navbar = () => {
   return (
@@ -78,8 +78,8 @@ const Navbar = () => {
 
         <div className="nav-icons">
           <svg
-            width="34"
-            height="34"
+            width="24"
+            height="24"
             viewBox="0 0 34 34"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -91,8 +91,8 @@ const Navbar = () => {
           </svg>
 
           <svg
-            width="31"
-            height="30"
+            width="24"
+            height="24"
             viewBox="0 0 31 30"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -104,8 +104,8 @@ const Navbar = () => {
           </svg>
 
           <svg
-            width="28"
-            height="28"
+            width="24"
+            height="24"
             viewBox="0 0 28 28"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -120,7 +120,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar
