@@ -37,6 +37,8 @@ const Navbar = () => {
             </defs>
           </svg>
         </div>
+        <div className="nav-it">
+
         <Link href={"/test"} style={{ textDecoration: "none", color: "white" }}>
           About Craft
         </Link>
@@ -55,6 +57,8 @@ const Navbar = () => {
         <Link href={"/test"} style={{ textDecoration: "none", color: "white" }}>
           Kaashth Kari
         </Link>
+        </div>
+
       </nav>
 
       <div className="search">

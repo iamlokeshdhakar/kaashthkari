@@ -6,11 +6,9 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <div className="footer">
-      <Image
-        src={footerimg}
-        width={800}
-        style={{ position: "absolute", bottom: -140 }}
-      />
+      <div className="f-img">
+        
+      </div>
 
       <div className="details">
         <div className="policy">

@@ -9,6 +9,14 @@
   font-size: 14px;
   color: white;
 }
+.nav-it{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  flex-wrap: wrap;
+  gap: 20px;
+}
 
 .search {
   margin: 10px 0px;
@@ -51,3 +59,20 @@
   display: flex;
   gap: 10px;
 }
+
+
+@media (max-width: 425px) {
+  .navbar{
+    height: 100px;
+    justify-content: flex-start;
+    align-items: start;
+  }
+  .search{
+    margin: 0;
+    padding: 10px 0px;
+    gap: 10px;
+    justify-content: center;
+  }
+}
+
+

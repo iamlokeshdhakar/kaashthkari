@@ -1,23 +1,34 @@
-.donate{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 70px 10px;
-    gap: 60px;
+.donate {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 10px;
+  padding-bottom: 100px;
+  gap: 60px;
 }
-.d-img{
-    position: relative;
-    width: 230px;
-    height: 400px;
-    background-color:red;
+.d-img {
+  position: relative;
+  width: 200px;
+  height: 350px;
 }
-.d-cnt{
-    font-size: 24px;
-    text-align: center;
-    color: red;
+.d-cnt {
+  font-size: 17px;
+  text-align: center;
+  color: red;
 }
-.d-cnt h2{
-    font-weight: 800;
-    font-size: 44px;
+.d-cnt h2 {
+  font-weight: 800;
+  font-size: 34px;
+}
+
+@media (max-width: 425px) {
+  .donate {
+    flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+ .donate{
+    gap: 40px;
+ }
 }
