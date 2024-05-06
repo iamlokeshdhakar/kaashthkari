@@ -4,15 +4,15 @@ import "../styles/navbar.css";
 import Link from "next/link";
 
 const Navbar = () => {
-  const resnav = useRef(null);
+  // const resnav = useRef(null);
 
-  const navmenu = () => {
-    resnav.current.style.right = "0%";
-  };
+  // const navmenu = () => {
+  //   resnav.current.style.right = "0%";
+  // };
 
-  const crossmenu = () => {
-    resnav.current.style.right = "-100%";
-  };
+  // const crossmenu = () => {
+  //   resnav.current.style.right = "-100%";
+  // };
 
   return (
     <div>
@@ -88,7 +88,7 @@ const Navbar = () => {
           </Link>
         </div>
 
-        <button className="nav-menu" onClick={navmenu}>
+        {/* <button className="nav-menu" onClick={navmenu}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -96,10 +96,10 @@ const Navbar = () => {
           >
             <path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path>
           </svg>
-        </button>
+        </button> */}
 
         {/* responsive */}
-        <div className="responsive-nav" ref={resnav}>
+        {/* <div className="responsive-nav" ref={resnav}>
           <button className="nav-cross" onClick={crossmenu}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -118,7 +118,7 @@ const Navbar = () => {
             <li>Banaras</li>
             <li>Kaashth Kari</li>
           </ul>
-        </div>
+        </div> */}
       </nav>
 
       <div className="search">
