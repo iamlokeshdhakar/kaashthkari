@@ -1,0 +1,53 @@
+.products {
+  width: 100%;
+}
+.b-img {
+  width: 100%;
+  height: 370px;
+  background-image: url("/banaras.png");
+  background-size: cover;
+  background-position: center;
+}
+.items {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: red;
+  padding: 40px 60px;
+}
+.box {
+  width: 90%;
+  height: 100%;
+  background-color: blue;
+}
+.wrapper {
+  margin-top: 30px;
+  width: 100%;
+  background-color: gray;
+  display: flex;
+}
+.cards {
+  display: flex;
+  width: 90%;
+  height: 100%;
+  gap: 10px;
+  background-color: rgb(82, 82, 130);
+  overflow: scroll;
+}
+.card {
+  width: 250px;
+  height: 300px;
+  background-color: yellow;
+  flex-shrink: 0;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.arrow {
+  display: flex;
+  width: 10%;
+  background-color: rgb(178, 141, 141);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

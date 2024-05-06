@@ -34,6 +34,9 @@
   width: 40%;
   height: 250px;
   background-color: blue;
+  background-image: url('/video.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .history {
@@ -45,33 +48,32 @@
   padding: 30px 0px;
   gap: 40px;
 }
-.his-head{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    text-align: center;
+.his-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
 }
-.his-head h1{
-    background-color: #81ADDE;
-    padding: 20px;
+.his-head h1 {
+  background-color: #81adde;
+  padding: 20px;
 }
-.his-head img{
-    width: 180px;
+.his-head img {
+  width: 180px;
 }
-.history p{
-    width: 80%;
-    text-align: center;
-    
+.history p {
+  width: 80%;
+  text-align: center;
 }
-.boat{
-    display: flex;
-    justify-content: end;
-    width: 100%;
+.boat {
+  display: flex;
+  justify-content: end;
+  width: 100%;
 }
-.boat img{
-    width: 200px;
-    margin-top: -80px;
+.boat img {
+  width: 200px;
+  margin-top: -80px;
 }
 
 @media (max-width: 768px) {
@@ -96,16 +98,16 @@
   .video {
     width: 100%;
   }
-  .his-head{
+  .his-head {
     gap: 10px;
   }
-  .his-head img{
+  .his-head img {
     width: 80px;
   }
-  .his-head h1{
+  .his-head h1 {
     padding: 5px 10px;
   }
-  .boat{
+  .boat {
     padding-top: 50px;
   }
 }
