@@ -58,7 +58,6 @@ settled on Kaima wood (also known as Haldu).</p>
       <div className="boat">
             <img src="/boat.png" alt="" />
       </div>
-      page
     </div>
   )
 }
