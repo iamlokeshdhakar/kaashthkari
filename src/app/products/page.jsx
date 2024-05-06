@@ -60,16 +60,16 @@ const Produts = () => {
     <div className="products">
       <div className="b-img"></div>
       <div className="items">
-        {productJson.map((e) => {
+        {productJson.map((e, k) => {
           return (
-            <div className="box">
+            <div className="box" key={k}>
               <h2>{e.heading}</h2>
               <div className="wrapper">
                 <div className="card-box" ref={e.ref}>
-                  {e.image.map((img) => {
+                  {e.image.map((img, kk) => {
                     return (
                       <>
-                        <div className="cards">
+                        <div className="cards" key={kk}>
                           <div className="card">
                             <img src={img} alt="" />
                           </div>
