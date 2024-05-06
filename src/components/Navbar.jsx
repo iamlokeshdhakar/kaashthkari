@@ -100,7 +100,7 @@ const Navbar = () => {
                 Product
               </Link>
               <Link
-                href={"/test"}
+                href={"/"}
                 style={{ textDecoration: "none", color: "black" }}
               >
                 Artisan
