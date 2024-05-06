@@ -17,35 +17,42 @@
 .box {
   width: 90%;
   height: 100%;
-  background-color: blue;
+  color: #5c2811;
 }
 .wrapper {
   margin-top: 30px;
   width: 100%;
-  background-color: gray;
   display: flex;
+}
+.card-box {
+  display: flex;
+  width: 90%;
+  padding: 10px;
+  overflow-x: scroll;
+  gap: 10px;
 }
 .cards {
   display: flex;
-  width: 90%;
+  flex-shrink: 0;
+  width: 100%;
   height: 100%;
-  gap: 10px;
-  background-color: rgb(82, 82, 130);
-  overflow: scroll;
+  gap: 80px;
 }
 .card {
-  width: 250px;
+  width: 260px;
   height: 300px;
-  background-color: yellow;
-  flex-shrink: 0;
+}
+.card img {
+  width: 100%;
+  height: 100%;
 }
 ::-webkit-scrollbar {
   display: none;
 }
 .arrow {
+  cursor: pointer;
   display: flex;
   width: 10%;
-  background-color: rgb(178, 141, 141);
   display: flex;
   justify-content: center;
   align-items: center;
