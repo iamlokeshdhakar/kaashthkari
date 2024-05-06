@@ -1,8 +1,19 @@
-import React from "react"
-import "../styles/navbar.css"
-import Link from "next/link"
+"use client"
+import React, { useRef } from "react";
+import "../styles/navbar.css";
+import Link from "next/link";
 
 const Navbar = () => {
+  const resnav = useRef(null);
+
+  const navmenu = () => {
+    resnav.current.style.right = "0%";
+  };
+
+  const crossmenu = () => {
+    resnav.current.style.right = "-100%";
+  };
+
   return (
     <div>
       <nav className="navbar">
@@ -37,28 +48,77 @@ const Navbar = () => {
             </defs>
           </svg>
         </div>
-        <div className="nav-it">
 
-        <Link href={"/test"} style={{ textDecoration: "none", color: "white" }}>
-          About Craft
-        </Link>
-        <Link href={"/test"} style={{ textDecoration: "none", color: "white" }}>
-          Motif
-        </Link>
-        <Link href={"/test"} style={{ textDecoration: "none", color: "white" }}>
-          Product
-        </Link>
-        <Link href={"/test"} style={{ textDecoration: "none", color: "white" }}>
-          Artisan
-        </Link>
-        <Link href={"/test"} style={{ textDecoration: "none", color: "white" }}>
-          Banaras
-        </Link>
-        <Link href={"/test"} style={{ textDecoration: "none", color: "white" }}>
-          Kaashth Kari
-        </Link>
+        <div className="nav-it">
+          <Link
+            href={"/test"}
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            About Craft
+          </Link>
+          <Link
+            href={"/test"}
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            Motif
+          </Link>
+          <Link
+            href={"/test"}
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            Product
+          </Link>
+          <Link
+            href={"/test"}
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            Artisan
+          </Link>
+          <Link
+            href={"/test"}
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            Banaras
+          </Link>
+          <Link
+            href={"/test"}
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            Kaashth Kari
+          </Link>
         </div>
 
+        <button className="nav-menu" onClick={navmenu}>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+          >
+            <path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path>
+          </svg>
+        </button>
+
+        {/* responsive */}
+        <div className="responsive-nav" ref={resnav}>
+          <button className="nav-cross" onClick={crossmenu}>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path d="M17.8492 11.805L17.1421 11.0979L7.24264 20.9974H3V16.7547L14.3137 5.44101L19.9706 11.0979C20.3611 11.4884 20.3611 12.1216 19.9706 12.5121L12.8995 19.5831L11.4853 18.1689L17.8492 11.805ZM18.5563 2.61258L21.3848 5.44101C21.7753 5.83153 21.7753 6.4647 21.3848 6.85522L19.9706 8.26943L15.7279 4.02679L17.1421 2.61258C17.5327 2.22206 18.1658 2.22206 18.5563 2.61258Z"></path>
+            </svg>
+          </button>
+
+          <ul>
+            <li>About Craft</li>
+            <li>Motif</li>
+            <li>Product</li>
+            <li>Artisan</li>
+            <li>Banaras</li>
+            <li>Kaashth Kari</li>
+          </ul>
+        </div>
       </nav>
 
       <div className="search">
@@ -124,7 +184,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
