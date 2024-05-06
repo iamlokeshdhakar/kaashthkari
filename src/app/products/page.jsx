@@ -6,7 +6,7 @@ const Produts = () => {
       <div className="b-img"></div>
       <div className="items">
         <div className="box">
-          <h2>Buyer's Choice</h2>
+          <h2>Buyer&apos;s Choice</h2>
           <div className="wrapper">
             <div className="cards">
               <div className="card"></div>
