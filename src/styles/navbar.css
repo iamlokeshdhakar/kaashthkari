@@ -9,6 +9,16 @@
   font-size: 14px;
   color: white;
 }
+.logo {
+  width: 50px;
+  height: 40px;
+  background-image: url("/footerLogo.png");
+  background-size: cover;
+}
+.menu-icon {
+  display: none;
+  color: white;
+}
 
 .nav-it {
   display: flex;
@@ -64,64 +74,43 @@
 .nav-menu {
   height: 30px;
   width: 30px;
-  display: none;
   background-color: transparent;
   color: #fff;
   border: none;
   cursor: pointer;
 }
-
-.responsive-nav {
-  display: none;
-  width: 80%;
+.menu-bar {
+  width: 200px;
   height: 100%;
-  background-color: #5c2811;
-  margin: auto;
-  position: absolute;
-  right: -100%;
-  top: 0%;
-  z-index: 99999;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9999999;
+  border-left: 2px solid rgb(196, 196, 196);
+  box-shadow: 0px 0px 40px 2px rgb(72, 71, 71);
 }
-
-.responsive-nav ul {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  width: 100%;
-  margin-top: 50px;
-}
-
-.responsive-nav ul li {
-  list-style: none;
-  font-size: 20px;
-  cursor: pointer;
-}
-
-.nav-cross {
-  border: none;
-  background-color: #5c2811;
-}
-
-.nav-cross svg {
-  height: 30px;
-  width: 30px;
-  color: #fff;
-  cursor: pointer;
-}
-
-.nav-cross {
+.menu-top {
   display: flex;
   justify-content: end;
+  align-items: center;
+  padding: 10px;
   width: 100%;
-  padding: 20px 30px;
+  height: 40px;
+}
+.mobile-nav-it {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+  color: black;
 }
 
 @media (max-width: 425px) {
   .navbar {
-    height: 100px;
-    justify-content: flex-start;
-    align-items: start;
+    /* align-items: start; */
   }
   .search {
     margin: 0;
@@ -138,20 +127,10 @@
   .search-box {
     min-width: 30%;
   }
-  .nav-menu {
-    display: initial;
-  }
   .nav-it {
     display: none;
   }
-  .responsive-nav {
-    width: 60%;
-    display: initial;
-  }
-}
-
-@media (max-width: 590px) {
-  .responsive-nav {
-    width: 80%;
+  .menu-icon {
+    display: block;
   }
 }
