@@ -13,3 +13,9 @@ body {
 h1{
   color: #5C2811;
 }
+
+@media (max-width: 425px) {
+    h1{
+      font-size: 18px;
+    }
+}
