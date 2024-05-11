@@ -73,13 +73,13 @@ const Navbar = () => {
 
             <div className="mobile-nav-it" onClick={() => setIsOpen(false)}>
               <Link
-                href={"/test"}
+                href={"/craft"}
                 style={{ textDecoration: "none", color: "black" }}
               >
                 About Craft
               </Link>
               <Link
-                href={"/test"}
+                href={"/"}
                 style={{ textDecoration: "none", color: "black" }}
               >
                 Motif
@@ -103,7 +103,7 @@ const Navbar = () => {
                 Banaras
               </Link>
               <Link
-                href={"/test"}
+                href={"/"}
                 style={{ textDecoration: "none", color: "black" }}
               >
                 Kaashth Kari
