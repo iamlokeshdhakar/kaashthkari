@@ -22,7 +22,9 @@ const Banaras = () => {
       <div className="story">
         <Heading text={"STORY BEHIND THE GATE"} />
         <div className="kashi">
-          <div className="video"></div>
+          <div className="video">
+            <img src="/banaras-video.gif" alt="" />
+          </div>
           <p>
             Legend says that the city is also often referred to as AanandaVana,
             or the forest of bliss. It is a name that truly describes the

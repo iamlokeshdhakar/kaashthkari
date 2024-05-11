@@ -3,9 +3,6 @@
 }
 .b-img {
   width: 100%;
-  /* background-image: url("/banaras.png");
-  background-size: cover;
-  background-position: center; */
 }
 .b-img img {
   width: 100%;
@@ -35,10 +32,10 @@
 .video {
   width: 40%;
   height: 250px;
-  background-color: blue;
-  background-image: url("/video.png");
-  background-size: cover;
-  background-position: center;
+}
+.video img{
+  width: 100%;
+  border-radius: 12px;
 }
 
 .history {
