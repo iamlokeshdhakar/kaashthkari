@@ -7,8 +7,7 @@ import Heading from "@/components/h1"
 const product = () => {
   return (
     <div className="product">
-      <div className="product-img"></div>
-
+      <video src="/craft-video.mp4" loop autoPlay muted></video>
       {/* Raw material */}
       <div className="raw-material">
         <Heading text={"RAW MATERIAL"} />
