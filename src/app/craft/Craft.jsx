@@ -1,8 +1,8 @@
-import Image from "next/image";
-import React from "react";
-import "../../styles/product.css";
-import SideImage from "@/components/SideImage";
-import Heading from "@/components/h1";
+import Image from "next/image"
+import React from "react"
+import "../../styles/product.css"
+import SideImage from "@/components/SideImage"
+import Heading from "@/components/h1"
 
 const Craft = () => {
   return (
@@ -10,7 +10,7 @@ const Craft = () => {
       <video src="/craft-video.mp4" loop autoPlay muted></video>
       {/* Raw material */}
       <div className="raw-material">
-        <Heading text={"RAW MATERIAL"} />
+        <h1>RAW MATERIAL</h1>
 
         <div className="materials">
           <div className="materials-dets">
@@ -161,7 +161,7 @@ const Craft = () => {
       {/* Facts */}
       <div className="fact">
         <div className="fact-left">
-         <div className="banaras-logo"></div>
+          <div className="banaras-logo"></div>
           <div className="journey">
             <Heading text={"THE GI JOURNEY"} />
 
@@ -191,8 +191,7 @@ const Craft = () => {
 
       {/* Selling Items */}
       <div className="sell">
-        <Heading text={"OUR HOTTEST SELLING ITEM"} />
-
+        <h1 className="pl-2">{" "} OUR HOTTEST SELLING ITEM</h1>
         <div className="sell-item">
           <Image src={"/bottle.png"} height={120} width={100} />
           <p>
@@ -207,7 +206,7 @@ const Craft = () => {
         <h2>HELP THE CREATORS! DONATE FOR A CAUSE!</h2>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Craft;
+export default Craft
