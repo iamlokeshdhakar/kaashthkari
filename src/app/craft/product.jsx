@@ -11,7 +11,7 @@ const product = () => {
 
       {/* Raw material */}
       <div className="raw-material">
-        <Heading text={"RAW MATERIAL"}/>
+        <Heading text={"RAW MATERIAL"} />
 
         <div className="materials">
           <div className="materials-dets">
@@ -132,7 +132,7 @@ const product = () => {
 
       {/* Final Product */}
       <div className="final-prduct">
-        <Heading text={"FINAL PRODUCTS"}/>
+        <Heading text={"FINAL PRODUCTS"} />
 
         <div className="finalproduct-img">
           <Image src={"/prod1.png"} height={180} width={70} />

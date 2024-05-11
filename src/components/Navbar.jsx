@@ -15,13 +15,13 @@ const Navbar = () => {
 
         <div className="nav-it">
           <Link
-            href={"/test"}
+            href={"/craft"}
             style={{ textDecoration: "none", color: "white" }}
           >
             About Craft
           </Link>
           <Link
-            href={"/test"}
+            href={"/"}
             style={{ textDecoration: "none", color: "white" }}
           >
             Motif
@@ -45,7 +45,7 @@ const Navbar = () => {
             Banaras
           </Link>
           <Link
-            href={"/test"}
+            href={"/"}
             style={{ textDecoration: "none", color: "white" }}
           >
             Kaashth Kari
