@@ -1,8 +1,8 @@
-import Image from "next/image"
-import React from "react"
-import "../../styles/product.css"
-import SideImage from "@/components/SideImage"
-import Heading from "@/components/h1"
+import Image from "next/image";
+import React from "react";
+import "../../styles/product.css";
+import SideImage from "@/components/SideImage";
+import Heading from "@/components/h1";
 
 const Craft = () => {
   return (
@@ -38,16 +38,16 @@ const Craft = () => {
 
         <div className="tool-child">
           <div className="tools-left">
-            <Image src={"/tool1.png"} height={700} width={900} />
+            {/* <Image src={"/tool1.png"} height={700} width={900} /> */}
           </div>
 
           <div className="tools-right">
             <div className="righttool-img">
-              <Image src={"/tool3.png"} height={200} width={50} />
-              <Image src={"/tool6.png"} height={200} width={50} />
-              <Image src={"/tool5.png"} height={200} width={50} />
-              <Image src={"/tool4.png"} height={200} width={50} />
-              <Image src={"/tool2.png"} height={200} width={50} />
+              <Image src={"/tool3.png"} height={200} width={40} />
+              <Image src={"/tool6.png"} height={200} width={40} />
+              <Image src={"/tool5.png"} height={200} width={40} />
+              <Image src={"/tool4.png"} height={200} width={40} />
+              <Image src={"/tool2.png"} height={200} width={40} />
             </div>
 
             <p>
@@ -161,7 +161,7 @@ const Craft = () => {
       {/* Facts */}
       <div className="fact">
         <div className="fact-left">
-          <Image src={"/banaraswrite.png"} width={500} height={200} />
+         <div className="banaras-logo"></div>
           <div className="journey">
             <Heading text={"THE GI JOURNEY"} />
 
@@ -178,6 +178,14 @@ const Craft = () => {
 
         <div className="fact-right">
           <h1>Facts!</h1>
+          <p>
+            The GI Tag for Wood Carving was approved by Dr. Rajnikanth, a 2019
+            Padma Shri Awardee who has been tirelessly working for the
+            betterment of various crafts in Uttar Pradesh and run Human Welfare
+            Association, an institution that has now been awarded with the
+            National Intellectual Property Award, giving it the right
+            to grant GI Tags.
+          </p>
         </div>
       </div>
 
@@ -199,7 +207,7 @@ const Craft = () => {
         <h2>HELP THE CREATORS! DONATE FOR A CAUSE!</h2>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Craft
+export default Craft;
