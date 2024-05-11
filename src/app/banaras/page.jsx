@@ -3,7 +3,9 @@ import "@/styles/banaras.css"
 const Banaras = () => {
   return (
     <div className="banaras">
-      <div className="b-img"></div>
+      <div className="b-img">
+        <img src="/banaras.png" alt="" />
+      </div>
       <div className="kashi">
         <img src="/kashi.png" alt="" />
         <p>

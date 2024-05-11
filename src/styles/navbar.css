@@ -34,12 +34,27 @@
   width: 100%;
   /* background-color: rgba(252, 9, 9, 0.423); */
   display: flex;
-  justify-content: end;
+  /* justify-content: end; */
   align-items: center;
   padding: 0px 40px;
   gap: 30px;
 }
-
+.hindi-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
+.hindi-logo img{
+  width: 100%;
+}
+.w-nav{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 15px;
+  justify-content: end;
+}
 .search-box {
   display: flex;
   align-items: center;
@@ -111,6 +126,13 @@
 @media (max-width: 425px) {
   .navbar {
     /* align-items: start; */
+  }
+  .w-nav{
+    justify-content: center;
+  }
+  .search{
+    flex-direction: column;
+    justify-content: center;
   }
   .search {
     margin: 0;
