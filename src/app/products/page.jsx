@@ -98,14 +98,14 @@ const Produts = () => {
           )
         })}
       </div> */}
-      {productJson.map((item) => {
+      {productJson.map((item, ee) => {
         return (
-          <div className="it-box">
+          <div className="it-box" key={ee}>
             <h2>{item.heading}</h2>
             <div className="card-img-box">
-              {item.image.map((img) => {
+              {item.image.map((img, ie) => {
                 return (
-                  <div className="card-img">
+                  <div className="card-img" key={ie}>
                     <img src={img} alt="" />
                   </div>
                 )
