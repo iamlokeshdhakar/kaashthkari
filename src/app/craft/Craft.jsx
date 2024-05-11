@@ -178,7 +178,7 @@ const Craft = () => {
 
         <div className="fact-right">
           <h1>Facts!</h1>
-          <p>
+          <p style={{ textAlign: "center" }}>
             The GI Tag for Wood Carving was approved by Dr. Rajnikanth, a 2019
             Padma Shri Awardee who has been tirelessly working for the
             betterment of various crafts in Uttar Pradesh and run Human Welfare
@@ -191,9 +191,9 @@ const Craft = () => {
 
       {/* Selling Items */}
       <div className="sell">
-        <h1 className="pl-2">{" "} OUR HOTTEST SELLING ITEM</h1>
+        <h1 className="pl-2"> OUR HOTTEST SELLING ITEM</h1>
         <div className="sell-item">
-          <Image src={"/bottle.png"} height={120} width={100} />
+          <div className="bottle-i"></div>
           <p>
             Amongst the many Wood Carving items being created, the sindoora is
             one item that is crafted and sold in bulks. One of its many reasons
