@@ -1,6 +1,7 @@
 import React from "react"
 import "../styles/herosection.css"
 import Image from "next/image"
+import Heading from "./h1"
 const HeroSection = () => {
   return (
     <div className="herosection">
@@ -8,12 +9,12 @@ const HeroSection = () => {
         <Image
           src={"/hero.png"}
           alt="hero-img"
-         fill="cover"
-         style={{width: '100%', height: '100%'}}
+          fill="cover"
+          style={{ width: "100%", height: "100%" }}
         />
       </div>
       <div className="h-cnt">
-        <h1>MEET THE ARTISANS</h1>
+        <Heading text={"MEET THE ARTISANS"} />
         <p>
           Varanasi is known for its rich tradition of wood carving, which is an
           art form that has been practiced for many years. The craftsmen of

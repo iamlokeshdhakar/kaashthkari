@@ -1,7 +1,8 @@
-import Image from "next/image";
-import React from "react";
-import "../../styles/product.css";
-import SideImage from "@/components/SideImage";
+import Image from "next/image"
+import React from "react"
+import "../../styles/product.css"
+import SideImage from "@/components/SideImage"
+import Heading from "@/components/h1"
 
 const product = () => {
   return (
@@ -10,7 +11,7 @@ const product = () => {
 
       {/* Raw material */}
       <div className="raw-material">
-        <h1>RAW MATERIAL</h1>
+        <Heading text={"RAW MATERIAL"}/>
 
         <div className="materials">
           <div className="materials-dets">
@@ -131,7 +132,7 @@ const product = () => {
 
       {/* Final Product */}
       <div className="final-prduct">
-        <h1>FINAL PRODUCTS</h1>
+        <Heading text={"FINAL PRODUCTS"}/>
 
         <div className="finalproduct-img">
           <Image src={"/prod1.png"} height={180} width={70} />
@@ -163,7 +164,7 @@ const product = () => {
         <div className="fact-left">
           <Image src={"/banaraswrite.png"} width={500} height={200} />
           <div className="journey">
-            <h1>THE GI JOURNEY</h1>
+            <Heading text={"THE GI JOURNEY"} />
 
             <p>
               The craft was granted the GI tag in September 2018. To date, 97
@@ -183,10 +184,10 @@ const product = () => {
 
       {/* Selling Items */}
       <div className="sell">
-        <h1>OUR HOTTEST SELLING ITEM</h1>
+        <Heading text={"OUR HOTTEST SELLING ITEM"} />
 
         <div className="sell-item">
-          <Image src={"/bottle.png"} height={120} width={100}/>
+          <Image src={"/bottle.png"} height={120} width={100} />
           <p>
             Amongst the many Wood Carving items being created, the sindoora is
             one item that is crafted and sold in bulks. One of its many reasons
@@ -199,7 +200,7 @@ const product = () => {
         <h2>HELP THE CREATORS! DONATE FOR A CAUSE!</h2>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default product;
+export default product

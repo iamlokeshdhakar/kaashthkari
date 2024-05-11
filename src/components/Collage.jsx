@@ -1,5 +1,6 @@
 import Image from "next/image"
 import "../styles/collage.css"
+
 const Collage = () => {
   return (
     <>

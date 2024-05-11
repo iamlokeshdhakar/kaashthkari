@@ -1,3 +1,4 @@
+import Heading from "@/components/h1"
 import "@/styles/banaras.css"
 const Banaras = () => {
   return (
@@ -17,7 +18,7 @@ const Banaras = () => {
         </p>
       </div>
       <div className="story">
-        <h1>STORY BEHIND THE GATE</h1>
+        <Heading text={"STORY BEHIND THE GATE"} />
         <div className="kashi">
           <div className="video"></div>
           <p>
@@ -40,23 +41,28 @@ const Banaras = () => {
           </h1>
           <img src="/animal2.png" alt="" />
         </div>
-        <p>Since the 16th century, Banaras has been known for its impressive wood carving art
-form. Skilled craftsmen create intricate designs that have been passed down through
-generations. Artisans typically learn their techniques from family members or local
-masters, contributing to the rich cultural heritage of Banaras.
-Since the city is one of the oldest living cities in the world, it is difficult to pinpoint
-the exact origin of this craft. As Dr. Rajnikant said, Kashi ka Shilp utna hi purana hai
-jitna ki Kashi.
-<br /> <br />
-Initially, wood carving was an ivory business. However, when ivory was banned in India in
-1986 under The Wildlife Protection Act (1972), many artisans lost their source of livelihood
-and turned to wood carving instead. They worked with a variety of woods, with Chandan
-(sandalwood) becoming the most popular due to its fine fibers and termite resistance. When
-sandalwood cutting was also banned, artisans switched to other alternatives and eventually
-settled on Kaima wood (also known as Haldu).</p>
+        <p>
+          Since the 16th century, Banaras has been known for its impressive wood
+          carving art form. Skilled craftsmen create intricate designs that have
+          been passed down through generations. Artisans typically learn their
+          techniques from family members or local masters, contributing to the
+          rich cultural heritage of Banaras. Since the city is one of the oldest
+          living cities in the world, it is difficult to pinpoint the exact
+          origin of this craft. As Dr. Rajnikant said, Kashi ka Shilp utna hi
+          purana hai jitna ki Kashi.
+          <br /> <br />
+          Initially, wood carving was an ivory business. However, when ivory was
+          banned in India in 1986 under The Wildlife Protection Act (1972), many
+          artisans lost their source of livelihood and turned to wood carving
+          instead. They worked with a variety of woods, with Chandan
+          (sandalwood) becoming the most popular due to its fine fibers and
+          termite resistance. When sandalwood cutting was also banned, artisans
+          switched to other alternatives and eventually settled on Kaima wood
+          (also known as Haldu).
+        </p>
       </div>
       <div className="boat">
-            <img src="/boat.png" alt="" />
+        <img src="/boat.png" alt="" />
       </div>
     </div>
   )
