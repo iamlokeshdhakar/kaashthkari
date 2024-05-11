@@ -1,6 +1,6 @@
 import React from "react";
-import Product from "./product";
+import Craft from "./Craft";
 
 export default function page() {
-  return <Product />;
+  return <Craft />;
 }

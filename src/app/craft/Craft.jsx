@@ -4,7 +4,7 @@ import "../../styles/product.css"
 import SideImage from "@/components/SideImage"
 import Heading from "@/components/h1"
 
-const product = () => {
+const Craft = () => {
   return (
     <div className="product">
       <video src="/craft-video.mp4" loop autoPlay muted></video>
@@ -202,4 +202,4 @@ const product = () => {
   )
 }
 
-export default product
+export default Craft
